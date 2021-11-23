@@ -1,0 +1,15 @@
+# STS snippets
+
+1. CLI - Decode error message
+`sts decode-authorization-message --encoded-message <error-message-value>`
+
+2. MFA with CLI
+API: `STS GetSessionToken`
+```
+aws sts get-session-token --serial-number <arn-of-the-mfa-device> --token-code <code-from-token> --duration-seconds <number-of-seconds>
+```
+
+
+
+## Links:
+1. S3 Resource Policy Generator: https://awspolicygen.s3.amazonaws.com/policygen.html
