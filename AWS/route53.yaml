@@ -1,0 +1,6 @@
+# Route53 snippets
+
+## Links:
+1. Route53 heath checks IPs that should be allowed in the SG: https://ip-ranges.amazonaws.com/ip-ranges.json
+
+
