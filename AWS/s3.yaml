@@ -2,5 +2,7 @@
 
 ## Links:
 1. S3 Resource Policy Generator: https://awspolicygen.s3.amazonaws.com/policygen.html
-
+2. S3 (not only) Policy Simulator:
+  - https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html
+  - https://policysim.aws.amazon.com/
 
