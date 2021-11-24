@@ -3,3 +3,4 @@
 ## Links:
 1. Instance type comparison: https://instances.vantage.sh/
 2. Instance metadata internal URL: `http://169.254.169.254/latest/meta-data/`
+3. IPs of Edge Locations: `https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips`

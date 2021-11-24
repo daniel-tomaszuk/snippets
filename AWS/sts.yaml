@@ -4,6 +4,8 @@
 `sts decode-authorization-message --encoded-message <error-message-value>`
 
 2. MFA with CLI
+It's required to create new session.
+<arn-of-the-mfa-device> -> ARN of device paired with AWS account.
 API: `STS GetSessionToken`
 ```
 aws sts get-session-token --serial-number <arn-of-the-mfa-device> --token-code <code-from-token> --duration-seconds <number-of-seconds>
